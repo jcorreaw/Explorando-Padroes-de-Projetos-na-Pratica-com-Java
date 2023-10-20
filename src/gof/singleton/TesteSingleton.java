@@ -1,6 +1,6 @@
 package gof.singleton;
 
-public class TestSingleton {
+public class TesteSingleton {
     public static void main(String[] args) {
         SingletonLazy lazy = SingletonLazy.getInstancia();
         System.out.println(lazy);
